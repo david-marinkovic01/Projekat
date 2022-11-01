@@ -89,7 +89,7 @@ public class PredlogKorisnickogInterfejsa extends JDialog {
             out = new FileWriter(file);
             textAreaTop.getLineCount();
             textAreaBottom.getLineCount();
-            String s = textAreaTop.getText();
+            String s = textAreaNew.getText();
             out.write(s);
         }
         catch (IOException e) {
